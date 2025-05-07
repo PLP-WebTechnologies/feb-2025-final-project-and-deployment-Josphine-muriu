@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <header>
+            <div class="LinguaBridge">
+                <h1>LinguaBridge</h1> <!-- LinguaBridge -->
+                <img src="Translator%20Home%20pic.png" alt="Translator Home Image" />
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        
+    <main>
+        <section class="translator">
+            <h1>Language Translator</h1>
+            <p>Select your languages and translate text instantly!</p>
+            <form id="translator-form">
+                <label for="from-language">From Language:</label>
+                <select id="from-language" required>
+                    <option value="en">English</option>
+                    <option value="zh">Chinese</option>
+                    <!-- Add other languages here -->
+                </select>
+                
+                <label for="to-language">To Language:</label>
+                <select id="to-language" required>
+                    <option value="zh">Chinese</option>
+                    <option value="en">English</option>
+                    <!-- Add other languages here -->
+                </select>
+                
+                <label for="text-to-translate">Enter Text:</label>
+                <textarea id="text-to-translate" required placeholder="Type text here..."></textarea>
+
+                <button type="submit">Translate</button>
+            </form>
+
+            <div id="translated-text">
+                <h3>Translated Text:</h3>
+                <p id="output"></p>
+            </div>
+
+            
+            
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Language Translator</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

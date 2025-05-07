@@ -1,0 +1,125 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+#translator-form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#translator-form select,
+#translator-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#translated-text {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Add styles for the image */
+.translator-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.translator-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Style for the website name */
+.site-name {
+    text-align: center;
+    background-color: #333;  /* Dark background */
+    color: white;            /* White text color */
+    padding: 20px 0;
+    font-size: 2.5rem;       /* Make the font size large */
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;     /* Add some spacing between letters */
+    margin-bottom: 20px;
+}
+
+.site-name h1 {
+    margin: 0;               /* Remove default margin */
+}
+
+/* Style for the image on the About page */
+.about-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;  /* Optional: Add rounded corners */
+}
